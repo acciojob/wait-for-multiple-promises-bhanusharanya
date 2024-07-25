@@ -1,9 +1,9 @@
-//your JS code here. If required.
 document.addEventListener('DOMContentLoaded', () => {
     const output = document.getElementById('output');
 
-    // Add a loading row
+    // Add a loading row with the id `loading`
     const loadingRow = document.createElement('tr');
+    loadingRow.id = 'loading';
     const loadingCell = document.createElement('td');
     loadingCell.colSpan = 2;
     loadingCell.innerText = 'Loading...';
